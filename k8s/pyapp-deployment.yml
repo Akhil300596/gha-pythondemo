@@ -16,10 +16,6 @@ spec:
     spec:
       containers:
         - name: pyapp
-<<<<<<< HEAD
-          image: kuragayalaakhil/gha-pyapp:9f28db4
-=======
           image: kuragayalaakhil/gha-pyapp:987af9f
->>>>>>> bcadd17 (wip)
           ports:
             - containerPort: 8000
